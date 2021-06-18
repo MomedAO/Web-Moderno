@@ -12,3 +12,4 @@ console.log(soma(1.1, 2.2, 3.3))
 
 console.log(1.1, 2.2, 'Teste')
 console.log('A', 'B', 'C')
+
