@@ -17,6 +17,6 @@ const notasBaixas2 = notas.filter(function (nota) {
 console.log(notasBaixas2)
 
 // funcao arrow  no callback
-const notasBaixas3 = notas.filter(nota => nota < 7)
+const notasMenorQue = nota => nota < 7
+const notasBaixas3 = notas.filter(notasMenorQue)
 console.log(notasBaixas3)
-
