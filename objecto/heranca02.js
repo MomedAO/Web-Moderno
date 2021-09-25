@@ -13,7 +13,34 @@ const carro = {
         if(this/this.velAtusl + delta <= this.velMax){
             this.velAtusl += delta
         } else {
-            
+            this.velAtusl = this.velMax
         }
+    },
+    status(){
+        return `${this.velAtusl}Km/h de ${this.velMax}Km/h`
     }
 }
+
+const ferrari = {
+    modelo: 'F40',
+    volMax: 324//shedowing
+}
+
+const volvo = {
+    modelo: 'V40',
+    status(){
+        return `${this.modelo}: ${super.status}`
+    }
+}
+
+Object.setPrototypeOf(ferrari, carro)
+Object.setPrototypeOf(volvo, carro)
+
+console.log(ferrari)
+console.log(volvo)
+
+volvo.acelerarMais(100)
+console.log(volvo.status())
+
+ferrari.acelerarMais(300)
+console.log(ferrari)

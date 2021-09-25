@@ -10,7 +10,7 @@ console.log(obj2)
 //funcoes construtoras
 function Produto (nome, preco, desconto){
     this.nome = nome
-    this.getProcoComDesconto = () => {
+    this.getProduComDesconto = () => {
         return preco * (1 - desconto)
     }
 }
@@ -19,8 +19,8 @@ console.log('---------')
 const p1 = new Produto('Caneta', 7.99, 0.15)
 const p2 = new Produto('NoteBook', 2998.99, 0.25)
 
-console.log(p1.getProcoComDesconto())
-console.log(p1.getProcoComDesconto())
+console.log(p1.getProduComDesconto())
+console.log(p1.getProduComDesconto())
 
 //funcao factory
 function criarFuncionario(nome, salarioBase, faltas){
