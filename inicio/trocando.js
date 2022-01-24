@@ -5,5 +5,5 @@ let temp = a;
 a = b;
 b = temp;
 
-console.log(`valor de a = ${a}`);
-console.log(`Valor de b = ${b}`);
+console.log('valor de a = ' + a);
+console.log('Valor de b = ' + b);
