@@ -3,7 +3,7 @@ const pessoa = {
   idade: (24 + ' anos'),
   endereco: {
     cidade: 'Nampula',
-    bairo: 'Natikire',
+    bairo: 'Natikiri',
     especifico: 'Salao Nazira'
   }
 };
