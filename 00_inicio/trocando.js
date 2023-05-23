@@ -1,20 +1,14 @@
-let a = 10;
-let b = 93;
+// troca de valor entre variaveis
+let value_a = 50
+let value_b = 100
+let value_c = value_a
 
-let temp = a;
-a = b;
-b = temp;
+value_a = value_b
+value_b = value_c
 
-console.log('valor de a = ' + a);
-console.log('Valor de b = ' + b);
-
-let c, d;
-c = 21;
-d = 32;
-
-let cd = c;
-c = d;
-d = cd;
-
-console.log('Valor de c = ' + c);
-console.log('Valor de d = ' + d);
+console.log(value_a, value_b)
+/*
+  for B to assume the value of A it is necessary that there
+  is a third variable C that will assume the value of A and
+  only then B assumes the value of A referred to by C 
+*/
