@@ -1,13 +1,10 @@
-var a = 3;
-let b = 10;
+var value_a = 3
+let value_b = 30
 
-var a = 30;
-b = 40;
-console.log(a, b);
+var value_a = 50 // is it possible to redeclare a variable with var
+value_b = 100
 
-a = 300;
-b = 400;
-console.log(a, b);
+console.log(value_a, value_b)
 
-const c = 5;
-console.log(c);
+const value_c = 500
+console.log(value_c)
