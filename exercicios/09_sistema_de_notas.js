@@ -18,7 +18,7 @@ const arredondar_nota = nota => {
   }
 }
 
-const classificarNota = nota => {
+const classificar_nota = nota => {
   nota = arredondar_nota(nota)
   if (nota >= 40) {
     return "Aprovado"
@@ -27,6 +27,6 @@ const classificarNota = nota => {
   }
 }
 
-console.log(classificarNota(38))
-console.log(classificarNota(33))
-console.log(classificarNota(47))
+console.log(classificar_nota(38))
+console.log(classificar_nota(33))
+console.log(classificar_nota(47))
